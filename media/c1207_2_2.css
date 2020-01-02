@@ -1,0 +1,140 @@
+*{
+    /*padding: 0;*/
+    margin: 0 0 10px;
+
+}
+body{
+    background-image: url("media/bg.jpg"); /*背景图*/
+    background-repeat: no-repeat; /*当图片大小小于背景大小时是否重复*/
+    background-attachment: fixed; /*背景依附，背景是不是跟着页面滚动*/
+    margin-bottom: -10px;
+}
+
+
+/*首页顶部*/
+.top{
+    background-color: #c1ffdf;
+    width: 100%;
+    height: 45px
+}
+.top_content{
+    background-color: #a9d8a0;
+    height: 45px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*首页导航栏*/
+.navigation{
+    background-color: #faebcc;
+    width: 15%;
+    max-height: 100%;
+    padding: 0 10px 10px 5px;
+    position: fixed;
+    /*float: left;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    overflow: auto;
+    white-space: nowrap;
+    list-style: none inside none;
+
+}
+#nav_local{
+    background: #c4e3f3;
+    font-size:14px;
+    margin: 0 auto 10px 5px;
+}
+#nav_local li{
+    margin: 5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #517b00;
+}
+a:hover{
+    color: #00be06;
+}
+a:active{
+    color: #6358ff;
+}
+a:visited{
+    color: cyan;
+}
+/*公告栏*/
+#notice_info{
+    width: 100%;
+    max-height: 100%;
+    background-color: #c4e3f3;
+    margin: 0 5px auto 5px;
+}
+#notice_info li{
+    margin: 5px 0 auto 5px;
+}
+
+/*首页正文*/
+.content{
+    min-height: 1000px;
+    width: 80%;
+    background-color: #fcfcfc;
+    background-size: 100% 100%;
+    margin: 0 10px auto auto;
+    padding: 1% 1% 0 1%;
+
+}
+.img{
+
+    width: 100%;
+    height: 480px;
+    background-size: 100% 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.scroll_info{
+    height: 30px;
+    width: 100%;
+    background-color: #c1ffdf;
+}
+.content_body{
+    width: 100%;
+    height: max-content;
+    background-color: #eeeeee;
+    background-size: 100% 100%;
+}
+.content_body ul li{
+    margin: auto auto auto 10px;
+    /*list-style-type: circle;*/
+    list-style-position: inside;
+    list-style-image: url("media/item.png") ;
+}
+.content_body ol li{
+    list-style-position: inside;
+    margin: auto auto auto 10px;
+}
+
+
+/*首页脚部*/
+.footer{
+    width: 100%;
+    background-color: #eeeeee;
+    background-size: 100% 100%;
+    margin: 10px auto -10px auto;
+}
+.footer_top{
+    width: 100%;
+    height: 60px;
+    background-color: #faebcc;
+    background-size: 100% 100%;
+    margin: 0 auto 10px;
+}
+.footer_bottom{
+    width: 100%;
+    height: 40px;
+    background-color: #c4e3f3;
+    background-size: 100% 100%;
+    margin-bottom: 0;
+
+}

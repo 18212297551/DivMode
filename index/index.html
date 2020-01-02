@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型练习</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="iconfont.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body id="body">
+<!--顶部-->
+    <div class="top">
+        <div class="top_content" id="top_content">
+            <i class="iconfont iconxiangmu">头部项目栏</i>
+            <button id="test1">测试1</button>
+            <button id="test2">测试2</button>
+        </div>
+    </div>
+<!--导航栏-->
+    <div class="navigation" id="navigation">
+        <p class="nav_title">导&emsp;航</p>
+        <div class="nav_local" id="nav_local">
+        </div>
+        <!--公告-->
+        <p class="nav_title">公&emsp;告</p>
+        <div class="notice" id="notice">
+            <div id="notice_info">
+            </div>
+        </div>
+    </div>
+<!--正文-->
+    <div class="content">
+        <div class="img active" id="img">
+            <img src="http://pics.sc.chinaz.com/files/pic/pic9/201910/bpic14029.jpg" alt="img">
+        </div>
+        <div class="scroll_info active">
+            <p>推荐条</p>
+        </div>
+        <div class="content_body" id="content_body">
+            <div id="content_first" class="active">
+                <ul>
+                    <li>第 1 条</li>
+                    <li>第 2 条</li>
+                    <li>第 3 条</li>
+                    <li>第 4 条</li>
+                    <li>第 5 条</li>
+                    <li>第 6 条</li>
+                    <li>第 7 条</li>
+                    <li>第 8 条</li>
+                    <li>第 9 条</li>
+                    <li>第 10 条</li>
+                </ul>
+                 <ol>
+                    <li>第 1 条</li>
+                    <li>第 2 条</li>
+                    <li>第 3 条</li>
+                    <li>第 4 条</li>
+                    <li>第 5 条</li>
+                    <li>第 6 条</li>
+                    <li>第 7 条</li>
+                    <li>第 8 条</li>
+                    <li>第 9 条</li>
+                    <li>第 10 条</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<!--分页-->
+    <div id="pagination">
+        <ul id="pagination_ul">
+            <li id="forword_page"><a onclick="pagination_click(this)">«</a></li>
+            <li id="next_page"><a onclick="pagination_click(this)">»</a></li>
+            <li id="goto">
+                <label for="goto_index"></label><input type="number" min="1" id="goto_index" onkeydown="goto_index_keydown(this)">
+                <button type="button" id="goto_btn" onclick="goto_page()">跳转</button>
+            </li>
+
+        </ul>
+    </div>
+<!--底部-->
+    <div class="footer">
+        <div class="footer_top">
+            <p>HTML JavaScript CSS 练习制作</p>
+        </div>
+        <div class="footer_bottom">
+            <footer>创建于2019年12月8日</footer>
+            <footer>创建于2019年12月8日</footer>
+            <footer>创建于2019年12月8日</footer>
+        </div>
+    </div>
+    <script src="index.js" rel="script" async></script>
+</body>
+</html>
