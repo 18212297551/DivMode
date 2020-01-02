@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e71907-cddc-4935-82c9-bb2f59a019ec" name="默认更改列表" comment="" />
+    <list default="true" id="67e71907-cddc-4935-82c9-bb2f59a019ec" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/divmode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UfC4KciWD0uVKpcHIyXj51PPrt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -70,7 +72,8 @@
       <workItem from="1575895483178" duration="10806000" />
       <workItem from="1575944929680" duration="8629000" />
       <workItem from="1576035868039" duration="1787000" />
-      <workItem from="1577981212367" duration="43000" />
+      <workItem from="1577981212367" duration="225000" />
+      <workItem from="1577981473334" duration="6000" />
     </task>
     <servers />
   </component>
@@ -80,6 +83,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/------" />
+      <path value="$PROJECT_DIR$/divmode" />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
@@ -87,10 +91,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577980865462" />
-    <state x="922" y="161" key="SettingsEditor" timestamp="1577981236815">
+    <state x="922" y="161" key="SettingsEditor" timestamp="1577981478265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577981236815" />
+    <state x="922" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577981478265" />
     <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577981283966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
